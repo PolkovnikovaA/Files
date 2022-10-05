@@ -3,22 +3,22 @@
 #include <malloc.h>
 #include <math.h>
 
-char* associations(char* a, char* b);
+char* associations(char* aa, char* bb);
 
 int Summ(int a, int b)
 {
 	return a + b;
 }
 
-int Razno(int a, int b)
+int Raz(int a, int b)
 {
 	return a - b;
 }
-int Ymno(int a, int b)
+int Kvadrat(int a)
 {
-	return a * b;
+	return a * a;
 }
-float  Delen(int a, int b)
+int  Kyb(int a)
 {
-	return (float)a / (float)b;
+	return a * a * a;
 }
